@@ -1,0 +1,39 @@
+/* assets/global.css */
+body, #__nuxt, #__layout, .nuxt-content-container {
+  background-color: #fff;
+}
+
+html { font-size: 150% }
+.r-width {
+  width: 13rem;
+}
+@media (max-width: 1440px) {
+  html {
+    font-size: 130%;
+  }
+}
+@media (max-width: 980px) {
+  html {
+    font-size: 120%;
+  }
+  .r-width {
+    width: 0rem;
+  }
+}
+@media (max-width: 750px) {
+  html {
+    font-size: 110%;
+  }
+  .r-width {
+    width: 0rem;
+  }
+}
+@media (max-width: 375px) {
+  html {
+    font-size: 95%;
+  }
+  .r-width {
+    width: 0rem;
+  }
+}
+
